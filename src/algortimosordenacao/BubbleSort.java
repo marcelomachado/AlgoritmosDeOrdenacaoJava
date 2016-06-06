@@ -2,7 +2,7 @@ package algortimosordenacao;
 
 public class BubbleSort {
 
-    public void bubble_srt(int array[]) {
+    public void sort(int array[]) {
         int n = array.length;
         int k;
         for (int m = n; m >= 0; m--) {

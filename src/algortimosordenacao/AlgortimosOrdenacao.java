@@ -1,5 +1,3 @@
-package algortimosordenacao;
-
 import java.util.Random;
 
 public class AlgortimosOrdenacao {

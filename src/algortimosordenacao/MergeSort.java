@@ -1,7 +1,3 @@
-
-package algortimosordenacao;
-
-
 public class MergeSort {
     private int[] array;
     private int[] tempMergArr;
@@ -14,8 +10,7 @@ public class MergeSort {
         doMergeSort(0, length - 1);
     }
  
-    private void doMergeSort(int lowerIndex, int higherIndex) {
-         
+    private void doMergeSort(int lowerIndex, int higherIndex) {         
         if (lowerIndex < higherIndex) {
             int middle = lowerIndex + (higherIndex - lowerIndex) / 2;
             doMergeSort(lowerIndex, middle);
@@ -25,7 +20,6 @@ public class MergeSort {
     }
  
     private void mergeParts(int lowerIndex, int middle, int higherIndex) {
- 
         for (int i = lowerIndex; i <= higherIndex; i++) {
             tempMergArr[i] = array[i];
         }
@@ -46,7 +40,6 @@ public class MergeSort {
             array[k] = tempMergArr[i];
             k++;
             i++;
-        }
- 
+        } 
     }
 }

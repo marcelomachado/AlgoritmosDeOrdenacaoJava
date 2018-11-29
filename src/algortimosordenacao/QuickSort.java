@@ -1,5 +1,3 @@
-package algortimosordenacao;
-
 public class QuickSort {
 
     private int array[];
@@ -50,5 +48,4 @@ public class QuickSort {
         array[i] = array[j];
         array[j] = temp;
     }
-
 }

@@ -1,5 +1,3 @@
-package algortimosordenacao;
-
 public class HeapSort {
 
     public static void sort(int array[]) {
